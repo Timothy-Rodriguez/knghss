@@ -38,7 +38,7 @@ function Contact() {
                             <Phone sx={{ fontSize: 40, color: "success.main" }} />
                             <Typography variant="h6" fontWeight="bold">Phone</Typography>
                             <Typography variant="body2" color="text.secondary">
-                                +91-8056188378 (HM Madam)
+                                +91-8056188378 (Head Master)
                             </Typography>
                         </Card>
                     </Grid>
