@@ -2,6 +2,12 @@ import React from 'react';
 import { Container, Typography, Grid, Box, Card } from "@mui/material";
 import { LocationOn, Phone, AccessTime } from "@mui/icons-material";
 
+const textD = {
+    color: "#42a5f5", // Light blue color
+    textDecoration: "none", // Removes underline
+    fontWeight: "bold", // Makes text bold
+};
+
 function Contact() {
     return (
         <>
@@ -38,7 +44,7 @@ function Contact() {
                             <Phone sx={{ fontSize: 40, color: "success.main" }} />
                             <Typography variant="h6" fontWeight="bold">Phone</Typography>
                             <Typography variant="body2" color="text.secondary">
-                                +91-8056188378 (Head Master)
+                                <a href="tel:+91-8056188378" style={textD}> +91-8056188378</a> (Head Master)
                             </Typography>
                         </Card>
                     </Grid>

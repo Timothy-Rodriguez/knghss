@@ -1,6 +1,12 @@
 import React from 'react';
 import { Box, Container, Grid, Typography, Link } from '@mui/material';
 
+const textD = {
+    color: "#42a5f5", // Light blue color
+    textDecoration: "none", // Removes underline
+    fontWeight: "bold", // Makes text bold
+};
+
 const Footer = () => {
   return (
     <Box
@@ -50,7 +56,8 @@ const Footer = () => {
             <Typography variant="h6" gutterBottom>
               Contact Us
             </Typography>
-            <Typography variant="body2">Phone: +91-8056188378</Typography>
+            <Typography variant="body2">Phone:
+                <a href="tel:+91-8056188378" style={textD}> +91-8056188378</a></Typography>
           </Grid>
         </Grid>
 
