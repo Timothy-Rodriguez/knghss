@@ -54,9 +54,9 @@ const Header = () => {
           open={Boolean(anchorEl)}
           onClose={handleMenuClose}
         >
-          <MenuItem onClick={handleMenuClose}>Home</MenuItem>
-          <MenuItem onClick={handleMenuClose}>About</MenuItem>
-          <MenuItem onClick={handleMenuClose}>Contact</MenuItem>
+          <MenuItem onClick={()=>window.location.href="/"}>Home</MenuItem>
+          <MenuItem onClick={()=>window.location.href="/about"}>About</MenuItem>
+          <MenuItem onClick={()=>window.location.href="/contact"}>Contact</MenuItem>
         </Menu>
       </Toolbar>
     </AppBar>
