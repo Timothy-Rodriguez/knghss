@@ -61,6 +61,24 @@ function Contact() {
                     </Grid>
                 </Grid>
 
+                <Container sx={{ mt: 5, mb: 5 }}>
+      <Typography variant="h4" textAlign="center" gutterBottom>
+        📍 Our Location
+      </Typography>
+      <Box sx={{ width: "100%", height: "400px", borderRadius: "10px", overflow: "hidden" }}>
+        <iframe
+          title="Google Map"
+          width="100%"
+          height="100%"
+          style={{ border: "0" }}
+          loading="lazy"
+          allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124395.14918246145!2d80.1684292!3d13.0134709!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525cf6b09ee541%3A0xf621acbdc400a1cd!2sKannagi%20Nagar%20Government%20High%20School!5e0!3m2!1sen!2sin!4v1738342948119!5m2!1sen!2sin"
+        ></iframe>
+      </Box>
+    </Container>
+
                 {/* Call to Action */}
                 <Box sx={{ textAlign: "center", mt: 4 }}>
                     <Typography variant="h6">
