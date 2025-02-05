@@ -29,9 +29,9 @@ function Contact() {
                         <Card sx={{ textAlign: "center", p: 3 }}>
                             <LocationOn sx={{ fontSize: 40, color: "primary.main" }} />
                             <Typography variant="h6" fontWeight="bold">Address</Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            {/* <Typography variant="body2" color="text.secondary">
                                 Kannagi Nagar Government Higher Secondary School
-                            </Typography>
+                            </Typography> */}
                             <Typography variant="body2" color="text.secondary">
                             <a style={textD} href="https://www.google.com/search?sca_esv=2e69544fa688a049&rlz=1C1CHBF_enIN1023IN1023&cs=0&q=kannagi+nagar+government+high+school+address&ludocid=17735646738598896077&sa=X&ved=2ahUKEwjXzPTf_6uLAxXJcGwGHaHBJLkQ6BN6BAgOEAI">W6HP+6RR, Kannagi Nagar, Thoraipakkam, Tamil Nadu 600097</a>
                             </Typography>
